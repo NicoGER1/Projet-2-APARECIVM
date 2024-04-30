@@ -1,0 +1,50 @@
+.button-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.button-container button {
+  margin: 0 150px;
+  border: 2px solid #390000;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #390000;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.link-yes {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.message-nogood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47rem;
+  color: #390000;
+  font-weight: 400;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
