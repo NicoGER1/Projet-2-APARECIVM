@@ -1,7 +1,9 @@
+import logoSite from "../assets/logo3.png";
+
 function Header() {
   return (
     <div className="logo">
-      <img src="src/assets/logo3.png" alt="Logo" />
+      <img src={logoSite} alt="Logo" />
     </div>
   );
 }
